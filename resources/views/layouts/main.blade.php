@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Movie App</title>
 
-    {{-- @vite('resources/css/app.css') --}}
-    <link rel="stylesheet" href="/build/assets/app.58be08d6.css">
+    
+
+    @vite('resources/css/main.css')
+    <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
+    {{-- <link rel="stylesheet" href="/build/assets/app.87990bc0.css"> --}}
     <link rel="icon" href="/img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
